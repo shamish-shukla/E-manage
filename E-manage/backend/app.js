@@ -12,7 +12,7 @@ const app = express();
 const port = process.env.PORT || 7000;
 
 mongoose.connect(
-  "mongodb+srv://shamishshukla56:SHAMISH1056@cluster0.195wnx5.mongodb.net/?retryWrites=true&w=majority"
+  "//mongodb url //"
 );
 
 // Middleware
